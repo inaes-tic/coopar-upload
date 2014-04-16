@@ -24,7 +24,7 @@
 
 </head>
 <body>
-
+  <div id="content">
   <!-- multistep form -->
 <form id="msform" action="#">
   <!-- progressbar -->
@@ -54,4 +54,23 @@
           <i class="fa fa-cloud-upload fa-5x"></i>
 	</fieldset>
 </form>
+  </div>
+  <footer>
+
+    <div class="footer">
+      <div id="button"></div>
+      <div id="container">
+        <div id="cont">
+          <div class="footer_center">
+	    <h3>AGPL v3, código en <a href="https://github.com/inaes-tic/coopar-upload"><i class="fa fa-github">GitHub</i></a></h3>
+
+            hecho con <i class="fa fa-2x fa-heart"></i> por los nerds de <a href="https://tic.inaes.gob.ar/">tic.inaes.gob.ar</a> para los compañeros de <a href="http://www.cooparcomunicacion.com.ar/" title="Coopar Comunicación" rel="nofollow"><img src="http://www.cooparcomunicacion.com.ar/wp-content/uploads/2013/07/logo21.png"></a>.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+
+  </div>
+</footer>
 </body>

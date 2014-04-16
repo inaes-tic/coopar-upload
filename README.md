@@ -6,4 +6,4 @@ Proof of concept using a simple Express-based nodejs HTTP server and the Pluploa
 code mostly stolen from:
 http://codepen.io/atakan/pen/gqbIz
 http://plupload.com/docs/pluploadQueue
-
+http://codepen.io/nickbraver/pen/mHLCp?
