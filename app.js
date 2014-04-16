@@ -4,12 +4,20 @@ var express = require('express'),
     fs = require('fs'),
     sleep = require('sleep'),
     ImageTypes = require('./ImageTypes'),
-    multiparty = require('multiparty')
-, util = require('util')
-, moment = require('moment');
+    multiparty = require('multiparty'),
+    exec       = require('child_process').exec,
+    util       = require('util'),
+    moment     = require('moment');
 
 var app = express(),
     PORT = 3000;
+
+/* hack but I'm not going to waist time on mkdirs */
+exec ('mkdir -p ./uploads', function (error, stdout, stderr) {
+        if (error !== null) {
+            console.error('exec error: ' + error);
+        }
+    });
 
 app.use(express.static('public'))
 app.use(morgan('dev'));
@@ -20,7 +28,6 @@ app.use(function(err, req, res, next){
   console.error(err.stack);
   res.send(500, 'Something broke!');
 });
-
 
 app.route('/')
     .get(function(req, res, next) {
