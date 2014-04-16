@@ -20,6 +20,8 @@
     <link type="text/css" rel="stylesheet" media="screen" href="/js/lib/jquery.plupload.queue/css/jquery.plupload.queue.css"/>
 
     <link type="text/css" rel="stylesheet" media="screen" href="/css/uploader.css" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
 </head>
 <body>
 
@@ -33,22 +35,24 @@
 	</ul>
 	<!-- fieldsets -->
 	<fieldset class="fieldset-1">
-		<h2 class="fs-title">Identifiquese</h2>
-		<input type="text" name="email" id="email" placeholder="Email" />
-		<input type="button" name="next" id="email-button" class="action-button" value="Next" />
+	<h2 class="fs-title">Identifiquese</h2>
+	<input type="text" name="email" id="email" placeholder="Email" />
+	<input type="button" name="next" id="email-button" class="action-button" value="Next" />
 	</fieldset>
         <fieldset class="fieldset-2">
-		<h2 class="fs-title">Subir Archivos</h2>
-		<h3 class="fs-subtitle">Arrastre archivos de su computadora</h3>
-                <div id="uploader">
-		  <p>Your browser doesn't have Flash, Silverlight or HTML5 support.</p>
-	        </div>
+	<h2 class="fs-title">Subir Archivos</h2>
+	<h3 class="fs-subtitle">Arrastre archivos de su computadora</h3>
+        <div id="uploader">
+	<p>Your browser doesn't have Flash, Silverlight or HTML5 support.</p>
+	</div>
 
-		<input type="button" name="previous" class="previous action-button" value="Previous" />
-                <input type="button" name="upload" class="upload-button action-button" value="Upload" />
+	<input type="button" name="previous" class="previous action-button" value="Previous" />
+        <input type="button" name="upload" class="upload-button action-button" value="Upload" />
 	</fieldset>
+        </fieldset>
         <fieldset class="fieldset-3">
-		<h2 class="fs-title">OK !</h2>
+	<h1 class="fs-title">Hecho !</h1>
+        <i class="fa fa-cloud-upload fa-5x"></i>
 	</fieldset>
 </form>
 </body>
