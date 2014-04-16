@@ -26,7 +26,7 @@
 <body>
 
   <!-- multistep form -->
-<form id="msform" method="post" action="/upload">
+<form id="msform" action="#">
   <!-- progressbar -->
 	<ul id="progressbar">
 		<li class="active">Identificación</li>
